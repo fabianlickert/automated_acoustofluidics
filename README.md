@@ -7,18 +7,18 @@ The acoustofluidic measurement setup consists of the following components:
 - Switching valve (MX Series II™ 2 Position/6 Port PEEK Switching Valve)
 - Signal generator (Digilent Analog Discovery 2)
 - Amplifier (Toellner TOE 7607)
-- Syringe pump (KdScientific Legato 110 )
-- Linear Stage (
+- Syringe pump (KdScientific Legato 110)
+- Linear Stage (Thorlabs K-Cube KDC101)
 
 In this repository Python drivers are provided to interface all the system components in order to automate the process of an acoustofluidic measurement.
 
 ## Required packages
 A list of the required packages can be found in the file requirements.txt. In particular make sure that the following packages are installed
 
-- Digilent's DWF library wrapper dwf ('pip install dwf')
-- pco camera package (pip install pco)
-- skimage (pip install scikit-image)
-- .NET Common Language Runtime clr (pip install pythonnet)
+- Digilent's DWF library wrapper dwf (`pip install dwf`)
+- pco camera package (`pip install pco`)
+- skimage (`pip install scikit-image`)
+- .NET Common Language Runtime clr (`pip install pythonnet`)
 - the usual (numpy, os, time, serial) as listed in the requirements.txt
 
 ## Testing of the sub-components
