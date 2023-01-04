@@ -19,7 +19,7 @@ A list of the required packages can be found in the file [requirements.txt](http
 - pco camera package (`pip install pco`)
 - skimage (`pip install scikit-image`)
 - .NET Common Language Runtime clr (`pip install pythonnet`)
-- the usual (numpy, os, time, serial) as listed in the [requirements.txt](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/requirements.txt).
+- the usual packages (numpy, os, time, serial) as listed in the [requirements.txt](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/requirements.txt).
 
 ## Testing of the sub-components
 Driver interfaces are provided for the pco camera, the Analog Discovery 2, the syringe pump, the switching valve and the linear stage.
