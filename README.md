@@ -25,7 +25,7 @@ A list of the required packages can be found in the file requirements.txt. In pa
 Driver interfaces are provided for the pco camera, the Analog Discovery 2, the syringe pump, the switching valve and the linear stage.
 
 ## Use of the main script
-1.	Open the main script “run_frequency_sweep_XXXX.ipnyb” using Jupyter Notebooks.
+1.	Open the main script [run_frequency_sweep.ipynb](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/run_frequency_sweep.ipynb) using Jupyter Notebooks.
 2.	Make sure that all devices are connected via USB to the lab computer, and that they are switched on:
   -	Camera
   -	Analog Discovery
