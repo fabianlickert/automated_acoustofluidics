@@ -27,18 +27,18 @@ Driver interfaces are provided for the pco camera, the Analog Discovery 2, the s
 ## Use of the main script
 1.	Open the main script [run_frequency_sweep.ipynb](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/run_frequency_sweep.ipynb) using Jupyter Notebooks.
 2.	Make sure that all devices are connected via USB to the lab computer, and that they are switched on:
-  -	Camera
-  -	Analog Discovery
-  -	Syringe pump
-  -	Switching valve
-  -	Amplifier
-  -	Light source
+    -	Camera
+    -	Analog Discovery
+    -	Syringe pump
+    -	Switching valve
+    -	Amplifier
+    -	Light source
 3.	Enter the correct COM-ports for the Syringe pump and the Switching valve in the Python script.
 4.	Run the Python script in a specified frequency interval. Make the necessary adjustments to the settings in terms of
-  -	Actuation voltage amplitude
-  -	Delay time and exposure time of the camera
-  -	Flushing flow rate and time
-  -	Number of images acquired and resolution
+    -	Actuation voltage amplitude
+    -	Delay time and exposure time of the camera
+    -	Flushing flow rate and time
+    -	Number of images acquired and resolution
 5.	The resulting images will be stored in the folder \img
 
 ## Work flow
