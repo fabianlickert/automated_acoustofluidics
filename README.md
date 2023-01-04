@@ -26,11 +26,11 @@ Driver interfaces are provided for the pco camera, the Analog Discovery 2, the s
 
 ## Use of the main script
 1.	The main script labeled “run_frequency_sweep_XXXX.ipnyb” can be opened using Jupyter Notebooks. The recommended procedure is:
-  a.	Start Anaconda Navigator
-  b.	Install the environment ENV.yml that is located on the T-drive, if not already done. This environment has all necessary Python packages pre-installed.
-  c.	Switch to the local environment 
-  d.	Run Jupyter Notebook
-  e.	Open the main script “run_frequency_sweep_XXXX.ipnyb”. There are several versions, all with slightly adjusted functionality. Chose the one fitting the experiment.
+  -	Start Anaconda Navigator
+  -	Install the environment ENV.yml that is located on the T-drive, if not already done. This environment has all necessary Python packages pre-installed.
+  -	Switch to the local environment 
+  -	Run Jupyter Notebook
+  -	Open the main script “run_frequency_sweep_XXXX.ipnyb”. There are several versions, all with slightly adjusted functionality. Chose the one fitting the experiment.
 f.	Make sure that all devices are connected via USB to the lab computer, and that they are switched on:
 i.	Camera
 ii.	Analog Discovery
