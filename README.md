@@ -22,7 +22,7 @@ A list of the required packages can be found in the file [requirements.txt](http
 - the usual packages (numpy, os, time, serial) as listed in the [requirements.txt](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/requirements.txt).
 
 ## Testing of the sub-components
-Driver interfaces are provided for the pco camera, the Analog Discovery 2, the syringe pump, the switching valve and the linear stage.
+Driver interfaces are provided for the pco camera, the Analog Discovery 2, the syringe pump, the switching valve and the linear stage. Examples for each of the sub-components are provided in the folder `\examples`. Before running the main script it is recommend to ensure that each of the sub-components functions properly.
 
 ## Use of the main script
 1.	Open the main script [run_frequency_sweep.ipynb](https://github.com/fabianlickert/automated_acoustofluidics/blob/main/run_frequency_sweep.ipynb) using Jupyter Notebooks.
@@ -40,5 +40,3 @@ Driver interfaces are provided for the pco camera, the Analog Discovery 2, the s
     -	Flushing flow rate and time
     -	Number of images acquired and resolution
 5.	The resulting images will be stored in the folder `\img`
-
-## Work flow
