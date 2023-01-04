@@ -39,6 +39,6 @@ Driver interfaces are provided for the pco camera, the Analog Discovery 2, the s
     -	Delay time and exposure time of the camera
     -	Flushing flow rate and time
     -	Number of images acquired and resolution
-5.	The resulting images will be stored in the folder \img
+5.	The resulting images will be stored in the folder `\img`
 
 ## Work flow
